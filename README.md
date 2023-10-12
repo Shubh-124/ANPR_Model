@@ -1,7 +1,7 @@
 # ANPR_Model
 <h1>Automatic Number Plate Reconition Model</h1>
-The ANPR works in four steps:
-
+The ANPR system works in four steps:
+<br>
 <b>Real-time object detection:<b> Uses deep learning techniques to recognize the vehicle through the webcam monitoring. Object detection algorithms-Harcascade detection model is used.
 
 <b>Image processing:<b> The image obtained is processed through EasyOCR algorithm, which includes normalizing the image by sharpening it to reduce noise, performing edge detection, converting it to grayscale to improve the results of the subsequent algorithm.
